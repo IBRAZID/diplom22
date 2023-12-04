@@ -97,7 +97,7 @@ public class ShowFragment extends Fragment {
                 gotoHomeFragment();
             }
         });
-            fbs.getFire().collection("products").get().addOnSuccessListener(new OnSuccessListener<QuerySnapshot>() {
+            fbs.getFire().collection("planets").get().addOnSuccessListener(new OnSuccessListener<QuerySnapshot>() {
                 @Override
                 public void onSuccess(QuerySnapshot queryDocumentSnapshots) {
 
